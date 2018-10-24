@@ -31,6 +31,8 @@ class Student
   end
 
   def self.create(name:, grade:)
+    binding.pry
     Student.new(name, grade)
+
   end
 end
